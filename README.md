@@ -3,12 +3,12 @@
 
 # Demo Send
 
-AlidayuMessageSender messageSender = new AlidayuMessageSender(url, appkey, appSecret); 
-messageSender.SmsType = "normal"; 
-messageSender.SmsFreeSignName = template.SmsFreeSignName; 
-messageSender.SmsParam = string.Format(template.SmsParam,smsParam);
-messageSender.RecNum = sendmobile; 
-messageSender.SmsTemplateCode = template.SmsTemplateCode; 
-string result = messageSender.SendMessage();
+>AlidayuMessageSender messageSender = new AlidayuMessageSender(url, appkey, appSecret); 
+>messageSender.SmsType = "normal"; 
+>messageSender.SmsFreeSignName = template.SmsFreeSignName; 
+>messageSender.SmsParam = string.Format(template.SmsParam,smsParam);
+>messageSender.RecNum = sendmobile; 
+>messageSender.SmsTemplateCode = template.SmsTemplateCode; 
+>string result = messageSender.SendMessage();
 
 
